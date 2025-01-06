@@ -59,5 +59,6 @@ export const Textarea = styled.textarea`
 
   font-weight: ${props => (props.bold ? 'bold' : 'normal')};
   font-style: ${props => (props.italic ? 'italic' : 'normal')};
-  text-decoration: ${props => (props.underline ? 'underline' : 'none')};
+  text-decoration: ${props =>
+    props.underline ? 'underline' : 'normal'}; // Corrected here
 `
