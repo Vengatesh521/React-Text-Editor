@@ -39,10 +39,6 @@ export const StyledButton = styled.button`
   align-items: center;
   justify-content: center;
   transition: color 0.3s ease;
-
-  &:hover {
-    color: ${props => (props.active ? '#faff00' : '#e6e6e6')};
-  }
 `
 
 export const Textarea = styled.textarea`
