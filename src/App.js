@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import {Component} from 'react'
 import {VscBold} from 'react-icons/vsc'
 import {GoItalic} from 'react-icons/go'
 import {AiOutlineUnderline} from 'react-icons/ai'
@@ -47,24 +47,27 @@ class App extends Component {
               data-testid="bold"
               active={bold}
               onClick={this.toggleBold}
+              type="button"
             >
               <VscBold size={25} />
             </StyledButton>
           </ListItem>
           <ListItem>
             <StyledButton
+              data-testid="italic"
               active={italic}
               onClick={this.toggleItalic}
-              data-testid="italic"
+              type="button"
             >
               <GoItalic size={25} />
             </StyledButton>
           </ListItem>
           <ListItem>
             <StyledButton
+              data-testid="underline"
               active={underline}
               onClick={this.toggleUnderline}
-              data-testid="underline"
+              type="button"
             >
               <AiOutlineUnderline size={25} />
             </StyledButton>

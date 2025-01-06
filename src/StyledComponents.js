@@ -29,8 +29,8 @@ export const ButtonList = styled.ul`
 export const ListItem = styled.li``
 
 export const StyledButton = styled.button`
-  background-color: ${props => (props.active ? '#faff00' : '#f1f5f9')};
-  color: ${props => (props.active ? '#25262c' : '#1b1c22')};
+  background-color: transparent;
+  color: ${props => (props.active ? '#faff00' : '#f1f5f9')};
   border: none;
   padding: 10px;
   border-radius: 4px;
@@ -38,10 +38,10 @@ export const StyledButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
 
   &:hover {
-    background-color: ${props => (props.active ? '#faff00' : '#e6e6e6')};
+    color: ${props => (props.active ? '#faff00' : '#e6e6e6')};
   }
 `
 

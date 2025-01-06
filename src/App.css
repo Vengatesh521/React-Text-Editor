@@ -21,7 +21,7 @@ body {
 
 .heading {
   color: #f1f5f9;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .image {
@@ -66,7 +66,7 @@ body {
   border: 1px solid #334155;
   border-radius: 4px;
   padding: 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   resize: none;
 }
